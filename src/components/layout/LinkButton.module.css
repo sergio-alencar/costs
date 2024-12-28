@@ -1,0 +1,23 @@
+.btn {
+  background-color: #222;
+  color: #fff;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  transition: 0.5s;
+  border-radius: 5px;
+  font-size: 120%;
+  grid-column: 4;
+}
+
+.btn:hover {
+  color: #ffbb33;
+}
+
+@media (max-width: 800px) {
+  .btn {
+    font-size: 120%;
+    text-align: center;
+    margin-top: 1.5em;
+    min-width: 100%;
+  }
+}
